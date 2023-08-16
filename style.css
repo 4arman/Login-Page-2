@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fira+Sans&family=Fjalla+One&family=GFS+Neohellenic&family=Heebo:wght@300;500&family=Inter:wght@300&family=Lexend+Giga&family=Merriweather:wght@900&family=Noto+Sans:wght@300&family=Nunito+Sans:opsz,wght@6..12,600&family=Open+Sans&family=Oxygen:wght@700&family=Prompt&family=Roboto&family=Roboto+Condensed:wght@300;400&family=Tektur:wght@600&family=Tilt+Prism&family=Voces&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://images.hdqwalls.com/wallpapers/minimal-landscape-4k-ro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    background-color: rgba(121, 121, 121, 0.849);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 12px rgb(0, 0, 0);
+}
+
+.page h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 53px;
+    color: #fafafa;
+    font-size: 30px;
+}
+
+.username {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 27px;
+    margin: 0 0 15px 0;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    font-size: 17px;
+    height: 45px;
+    padding: 10px;
+    width: 320px;
+    color: #fafafa;
+    background: transparent;
+    border: 2px solid;
+    border-color: rgb(240, 240, 240);
+    outline: none;
+}
+
+.username::placeholder {
+    color: #fafafa;
+    font-size: 15px;
+}
+
+.remember-forgot label {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 4px;
+    color: #fafafa;
+}
+
+.for-text {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    position: relative;
+    bottom: 22px;
+    margin-right: 4px;
+    width: 130px;
+    left: 190px;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.for-text:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    height: 42px;
+}
+
+.login-btn button {
+    width: 315px;
+    color: #333;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    transition: 200ms;
+}
+
+.no-acc {
+    top: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #fafafa;
+}
+
+.no-acc a {
+    color: #fafafa;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.rem-text {
+    position: relative;
+    right: 5px;
+    accent-color: #fafafa;
+}
+
+.no-acc a:hover {
+    text-decoration:underline;
+}
+
+.login-btn button:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.login-btn button:active {
+    cursor: pointer;
+    opacity: 20%;
+}
